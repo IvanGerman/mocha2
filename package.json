@@ -4,7 +4,8 @@
   "description": "mocha testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "coverage": "nyc --reporter=html npm run test"
   },
   "keywords": [
     "mocha",
